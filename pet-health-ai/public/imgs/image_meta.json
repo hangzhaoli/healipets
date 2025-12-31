@@ -1,0 +1,1209 @@
+[
+  {
+    "query": "Cute cat and dog together as friends, warm photo",
+    "image_info": {
+      "url": "https://i.ytimg.com/vi/V6UzcWt2wGg/maxresdefault.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 70521,
+      "width": 1280,
+      "height": 720,
+      "total_pixels": 921600,
+      "basic_score": 0.9269330969870119,
+      "file_name": "pet_friends_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Cute cat and dog together as friends, warm photo",
+    "image_info": {
+      "url": "https://i.pinimg.com/736x/2d/5d/e6/2d5de66876db06fd8883e293126cecb6.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 87082,
+      "width": 736,
+      "height": 981,
+      "total_pixels": 722016,
+      "basic_score": 0.8921430416275951,
+      "file_name": "pet_friends_0.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Cute cat and dog together as friends, warm photo",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/71HlHz703mL._AC_UF894,1000_QL80_.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 64387,
+      "width": 894,
+      "height": 559,
+      "total_pixels": 499746,
+      "basic_score": 0.8500582514624824,
+      "file_name": "pet_friends_1.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A warm professional photo of cute pets like cats and dogs for testimonial avatar",
+    "image_info": {
+      "url": "https://petportraits.com/cdn/shop/files/cartoon-style-mixedpets-min.jpg?v=1725042205&width=1400",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 97807,
+      "width": 800,
+      "height": 800,
+      "total_pixels": 640000,
+      "basic_score": 0.8888218762669514,
+      "file_name": "pet_avatar_1_7.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A warm professional photo of cute pets like cats and dogs for testimonial avatar",
+    "image_info": {
+      "url": "https://petportraits.com/cdn/shop/files/Canvas-3-Pet-Black-Frame-Classic-Soft-Sky.png?v=1714681565&width=1400",
+      "img_format": "PNG",
+      "mode": "P",
+      "file_size": 189340,
+      "width": 652,
+      "height": 652,
+      "total_pixels": 425104,
+      "basic_score": 0.8360474064063621,
+      "file_name": "pet_avatar_1_8.png"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A warm professional photo of cute pets like cats and dogs for testimonial avatar",
+    "image_info": {
+      "url": "https://petportraits.com/cdn/shop/files/Poster-2-Pet-Black-Frame-Classic-Soft-Sky.png?v=1714681622&width=1400",
+      "img_format": "PNG",
+      "mode": "P",
+      "file_size": 158514,
+      "width": 652,
+      "height": 652,
+      "total_pixels": 425104,
+      "basic_score": 0.832611457241003,
+      "file_name": "pet_avatar_1_2.png"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A friendly golden retriever dog portrait photo",
+    "image_info": {
+      "url": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/portrait-happy-purebred-golden-retriever-dog-good-focused.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 165036,
+      "width": 900,
+      "height": 900,
+      "total_pixels": 810000,
+      "basic_score": 0.9221268443239001,
+      "file_name": "pet_avatar_2_0.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A friendly golden retriever dog portrait photo",
+    "image_info": {
+      "url": "https://thumbs.dreamstime.com/b/portrait-view-happy-golden-retriever-dog-comfortable-home-portrait-view-happy-golden-retriever-dog-comfortable-328514005.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 70572,
+      "width": 700,
+      "height": 900,
+      "total_pixels": 630000,
+      "basic_score": 0.8753098529888321,
+      "file_name": "pet_avatar_2_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A friendly golden retriever dog portrait photo",
+    "image_info": {
+      "url": "https://i.etsystatic.com/30080781/r/il/8f9531/4760470664/il_570xN.4760470664_4xw9.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 92983,
+      "width": 570,
+      "height": 1013,
+      "total_pixels": 577410,
+      "basic_score": 0.8602173767352603,
+      "file_name": "pet_avatar_2_1.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A cute british shorthair cat portrait",
+    "image_info": {
+      "url": "https://thumbs.dreamstime.com/b/british-shorthair-kitten-4-months-old-18443822.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 61235,
+      "width": 800,
+      "height": 861,
+      "total_pixels": 688800,
+      "basic_score": 0.8912152981296725,
+      "file_name": "pet_avatar_3_9.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A cute british shorthair cat portrait",
+    "image_info": {
+      "url": "https://thumbs.dreamstime.com/b/cute-british-shorthair-cat-portrait-blue-background-148195268.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 78947,
+      "width": 800,
+      "height": 800,
+      "total_pixels": 640000,
+      "basic_score": 0.8867766045031246,
+      "file_name": "pet_avatar_3_7.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A cute british shorthair cat portrait",
+    "image_info": {
+      "url": "https://c8.alamy.com/comp/2G2JXW7/cute-gray-british-shorthair-blue-kitten-portrait-looking-at-camera-on-white-background-2G2JXW7.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 83565,
+      "width": 866,
+      "height": 1390,
+      "total_pixels": 1203740,
+      "basic_score": 0.8828694495749034,
+      "file_name": "pet_avatar_3_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A happy corgi dog smiling photo",
+    "image_info": {
+      "url": "https://i.ytimg.com/vi/y5bO5h6jLZc/maxresdefault.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 76757,
+      "width": 1280,
+      "height": 720,
+      "total_pixels": 921600,
+      "basic_score": 0.927568802106883,
+      "file_name": "pet_hero_1.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A happy corgi dog smiling photo",
+    "image_info": {
+      "url": "https://hips.hearstapps.com/wdy.h-cdn.co/assets/17/39/1506709524-cola-0247.jpg?crop=0.623xw:0.935xh;0.226xw,0.0649xh&resize=1200:*",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 102790,
+      "width": 1121,
+      "height": 1122,
+      "total_pixels": 1257762,
+      "basic_score": 0.9104393547426524,
+      "file_name": "pet_hero_7.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A happy corgi dog smiling photo",
+    "image_info": {
+      "url": "https://as1.ftcdn.net/jpg/02/62/09/44/1000_F_262094481_Bp05WR2Q6pu4Fp8lqvBRlFAiPIEUFmKH.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 164852,
+      "width": 1000,
+      "height": 668,
+      "total_pixels": 668000,
+      "basic_score": 0.90386737891153,
+      "file_name": "pet_hero_9.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A professional photo of an elegant cat, suitable for medical/healthcare website with clean composition",
+    "image_info": {
+      "url": "https://static.vecteezy.com/system/resources/previews/033/195/569/non_2x/portrait-of-a-beautiful-scottish-tabby-cat-veterinary-medicine-photo.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 178864,
+      "width": 1470,
+      "height": 980,
+      "total_pixels": 1440600,
+      "basic_score": 0.8973079836221959,
+      "file_name": "cat_friends_replacement_2_6.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A professional photo of an elegant cat, suitable for medical/healthcare website with clean composition",
+    "image_info": {
+      "url": "https://media.istockphoto.com/id/1429886366/photo/veterinary-hands-holding-beautiful-cat-in-veterinary-clinic.jpg?s=612x612&w=0&k=20&c=fY5MqbxuFLOiphF5GDCdrhsVJ7zsbnL8QAWBI0dVnfs=",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 33280,
+      "width": 612,
+      "height": 408,
+      "total_pixels": 249696,
+      "basic_score": 0.7671904348197031,
+      "file_name": "cat_friends_replacement_2_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A professional photo of an elegant cat, suitable for medical/healthcare website with clean composition",
+    "image_info": {
+      "url": "https://media.istockphoto.com/id/1885866215/photo/veterinarian-examines-the-pet.jpg?s=612x612&w=0&k=20&c=eF47wEhiYvROPAN4w-uWCjrtBtScy1aZhdIpxYzmfxY=",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 29549,
+      "width": 612,
+      "height": 408,
+      "total_pixels": 249696,
+      "basic_score": 0.7666166703016527,
+      "file_name": "cat_friends_replacement_2_7.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A professional portrait photo of a friendly cat, clean background, suitable for healthcare website",
+    "image_info": {
+      "url": "https://thumbs.dreamstime.com/b/cat-dressed-as-doctor-wearing-glasses-stethoscope-sitting-desk-hospital-scene-conveys-whimsical-humorous-atmosphere-366751600.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 57982,
+      "width": 678,
+      "height": 900,
+      "total_pixels": 610200,
+      "basic_score": 0.8705427594067338,
+      "file_name": "cat_friends_replacement_1_1.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A professional portrait photo of a friendly cat, clean background, suitable for healthcare website",
+    "image_info": {
+      "url": "https://i.etsystatic.com/58437764/r/il/6df12e/6774587358/il_570xN.6774587358_oplb.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 72814,
+      "width": 570,
+      "height": 856,
+      "total_pixels": 487920,
+      "basic_score": 0.8450379352280103,
+      "file_name": "cat_friends_replacement_1_3.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A professional portrait photo of a friendly cat, clean background, suitable for healthcare website",
+    "image_info": {
+      "url": "https://thumbs.dreamstime.com/b/tabby-cat-rests-peacefully-next-to-clipboard-filled-blank-medical-notes-stethoscope-creating-calm-atmosphere-405273967.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 55941,
+      "width": 800,
+      "height": 533,
+      "total_pixels": 426400,
+      "basic_score": 0.8305252231782415,
+      "file_name": "cat_friends_replacement_1_9.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A professional, clean photo of a healthy cat with white or light background, suitable for medical/healthcare website",
+    "image_info": {
+      "url": "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTA2L3Jhd3BpeGVsX29mZmljZV8zNF9waG90b19vZl9mdWxsX2JvZHlfdmV0ZXJpbmFyeV9pc29sYXRlZF9vbl90aF84Njg0ZjViZi02MjllLTQxOTQtYmUxZi01NjI2ZjE2YjZlYTQucG5n.png",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 201692,
+      "width": 800,
+      "height": 1385,
+      "total_pixels": 1108000,
+      "basic_score": 0.8976534493089012,
+      "file_name": "cat_hero_replacement_9.png"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A professional, clean photo of a healthy cat with white or light background, suitable for medical/healthcare website",
+    "image_info": {
+      "url": "https://thumbs.dreamstime.com/b/veterinarian-cat-dog-isolated-white-background-53683800.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 47064,
+      "width": 638,
+      "height": 900,
+      "total_pixels": 574200,
+      "basic_score": 0.862024047083727,
+      "file_name": "cat_hero_replacement_4.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A professional, clean photo of a healthy cat with white or light background, suitable for medical/healthcare website",
+    "image_info": {
+      "url": "https://thumbs.dreamstime.com/b/illustration-professional-cat-doctor-wearing-scrubs-glasses-against-white-background-cute-dressed-bright-blue-medical-366997699.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 27053,
+      "width": 800,
+      "height": 533,
+      "total_pixels": 426400,
+      "basic_score": 0.8268982381478999,
+      "file_name": "cat_hero_replacement_3.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A beautiful, real photograph of a cute fluffy cat, high quality, natural lighting, professional photography",
+    "image_info": {
+      "url": "https://i.redd.it/j94wfnxj5cmc1.jpeg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 150470,
+      "width": 736,
+      "height": 981,
+      "total_pixels": 722016,
+      "basic_score": 0.8986496501685475,
+      "file_name": "realistic_cat_1_7.jpeg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A beautiful, real photograph of a cute fluffy cat, high quality, natural lighting, professional photography",
+    "image_info": {
+      "url": "https://i.pinimg.com/originals/7d/6f/ce/7d6fce6b5f9ce5ce621644d4e07731ce.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 75760,
+      "width": 620,
+      "height": 1217,
+      "total_pixels": 754540,
+      "basic_score": 0.8743961248993051,
+      "file_name": "realistic_cat_1_3.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A beautiful, real photograph of a cute fluffy cat, high quality, natural lighting, professional photography",
+    "image_info": {
+      "url": "https://www.shutterstock.com/image-photo/cute-orange-cat-head-side-600nw-2603566259.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 100665,
+      "width": 600,
+      "height": 600,
+      "total_pixels": 360000,
+      "basic_score": 0.8159857714981107,
+      "file_name": "realistic_cat_1_8.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A gorgeous real dog and cat together, friendship photo, natural setting",
+    "image_info": {
+      "url": "https://www.yuup.it/wp-content/uploads/2023/05/shutterstock_2043249086-1170x658.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 78572,
+      "width": 1170,
+      "height": 658,
+      "total_pixels": 769860,
+      "basic_score": 0.9116235458473919,
+      "file_name": "realistic_pet_friends_8.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A gorgeous real dog and cat together, friendship photo, natural setting",
+    "image_info": {
+      "url": "https://static.boredpanda.com/blog/wp-content/uploads/2015/09/cats-and-dogs-getting-along-431__605.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 205026,
+      "width": 605,
+      "height": 808,
+      "total_pixels": 488840,
+      "basic_score": 0.8602549650068297,
+      "file_name": "realistic_pet_friends_7.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A gorgeous real dog and cat together, friendship photo, natural setting",
+    "image_info": {
+      "url": "https://thumbs.dreamstime.com/b/dog-cat-interacting-outdoors-illustrating-moment-communication-pets-326996113.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 59501,
+      "width": 800,
+      "height": 603,
+      "total_pixels": 482400,
+      "basic_score": 0.8477367150993823,
+      "file_name": "realistic_pet_friends_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A adorable real cat sitting, beautiful natural colors, professional pet photography",
+    "image_info": {
+      "url": "https://thumbs.dreamstime.com/b/orange-tabby-cat-sitting-colorful-wildflower-meadow-realistic-style-mountains-sunset-background-concept-nature-403797703.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 80183,
+      "width": 800,
+      "height": 800,
+      "total_pixels": 640000,
+      "basic_score": 0.8869116530941029,
+      "file_name": "realistic_cat_2_9.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A adorable real cat sitting, beautiful natural colors, professional pet photography",
+    "image_info": {
+      "url": "https://thumbs.dreamstime.com/b/adorable-beige-color-cat-sitting-grass-outdoors-autumn-day-357728899.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 54740,
+      "width": 800,
+      "height": 534,
+      "total_pixels": 427200,
+      "basic_score": 0.830626309602529,
+      "file_name": "realistic_cat_2_7.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A adorable real cat sitting, beautiful natural colors, professional pet photography",
+    "image_info": {
+      "url": "https://www.catster.com/wp-content/uploads/2015/06/Cute-Birman-Cat_Borkin-Vadim_Shutterstock-800x534.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 33323,
+      "width": 800,
+      "height": 534,
+      "total_pixels": 427200,
+      "basic_score": 0.8279438344778802,
+      "file_name": "realistic_cat_2_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a young professional for user testimonial, clean background, approachable expression",
+    "image_info": {
+      "url": "https://static.vecteezy.com/system/resources/previews/059/296/325/non_2x/portrait-of-a-young-man-avatar-illustration-in-a-clean-modern-style-ideal-for-profile-pictures-or-character-design-simple-clear-lines-for-a-professional-or-casual-look-vector.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 27141,
+      "width": 980,
+      "height": 980,
+      "total_pixels": 960400,
+      "basic_score": 0.9188723818591358,
+      "file_name": "testimonial_avatar_3_9.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a young professional for user testimonial, clean background, approachable expression",
+    "image_info": {
+      "url": "https://thumbs.dreamstime.com/b/professional-young-man-smiling-happy-cartoon-avatar-profile-illustration-412668750.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 60555,
+      "width": 800,
+      "height": 796,
+      "total_pixels": 636800,
+      "basic_score": 0.8841701873827532,
+      "file_name": "testimonial_avatar_3_7.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a young professional for user testimonial, clean background, approachable expression",
+    "image_info": {
+      "url": "https://thumbs.dreamstime.com/b/smiling-young-professional-man-cartoon-avatar-icon-vector-illustration-413418254.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 38640,
+      "width": 763,
+      "height": 900,
+      "total_pixels": 686700,
+      "basic_score": 0.8814414379087678,
+      "file_name": "testimonial_avatar_3_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a happy woman for user testimonial, clean background, friendly expression",
+    "image_info": {
+      "url": "https://img.freepik.com/free-photo/front-view-business-woman-suit_23-2148603018.jpg?semt=ais_hybrid&w=740&q=80",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 60247,
+      "width": 740,
+      "height": 740,
+      "total_pixels": 547600,
+      "basic_score": 0.864112719275255,
+      "file_name": "testimonial_avatar_1_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a happy woman for user testimonial, clean background, friendly expression",
+    "image_info": {
+      "url": "https://img.freepik.com/free-photo/confident-business-woman-portrait-smiling-face_53876-137693.jpg?semt=ais_hybrid&w=740&q=80",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 49126,
+      "width": 740,
+      "height": 592,
+      "total_pixels": 438080,
+      "basic_score": 0.8317105431894175,
+      "file_name": "testimonial_avatar_1_9.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a happy woman for user testimonial, clean background, friendly expression",
+    "image_info": {
+      "url": "https://img.freepik.com/free-photo/selfie-portrait-videocall_23-2149186122.jpg?semt=ais_hybrid&w=740&q=80",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 38464,
+      "width": 740,
+      "height": 493,
+      "total_pixels": 364820,
+      "basic_score": 0.8086365276163542,
+      "file_name": "testimonial_avatar_1_3.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a smiling man for user testimonial, clean background, confident look",
+    "image_info": {
+      "url": "https://thumbs.dreamstime.com/b/%D0%B3%D1%9F%D0%B3%D2%91%D0%B3%C2%B7%D0%B3-%D0%B3%D1%96%D0%B3%D1%98-male-avatar-realistic-face-man-suit-shirt-necktie-businessman-head-shoulder-icon-vector-186025729.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 24845,
+      "width": 800,
+      "height": 800,
+      "total_pixels": 640000,
+      "basic_score": 0.880733714437084,
+      "file_name": "testimonial_avatar_2_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a smiling man for user testimonial, clean background, confident look",
+    "image_info": {
+      "url": "https://i.etsystatic.com/13064317/r/il/3214ba/5880214501/il_fullxfull.5880214501_4boz.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 112429,
+      "width": 1200,
+      "height": 1200,
+      "total_pixels": 1440000,
+      "basic_score": 0.8795672600634609,
+      "file_name": "testimonial_avatar_2_4.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a smiling man for user testimonial, clean background, confident look",
+    "image_info": {
+      "url": "https://img.freepik.com/premium-vector/professional-male-avatar-profile-picture-employee-work_1322206-66590.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 31733,
+      "width": 626,
+      "height": 626,
+      "total_pixels": 391876,
+      "basic_score": 0.8172000006341423,
+      "file_name": "testimonial_avatar_2_7.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a young Caucasian person for user testimonial, clean background, approachable expression",
+    "image_info": {
+      "url": "https://as2.ftcdn.net/jpg/02/20/60/97/1000_F_220609741_GmzybFadOhexCoNYkrGSpyXc4Smhr4Tx.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 115096,
+      "width": 1000,
+      "height": 667,
+      "total_pixels": 667000,
+      "basic_score": 0.8985761448990823,
+      "file_name": "review_avatar_3_1.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a young Caucasian person for user testimonial, clean background, approachable expression",
+    "image_info": {
+      "url": "https://cbx-prod.b-cdn.net/COLOURBOX63376975.jpg?width=800&height=800&quality=70",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 59100,
+      "width": 534,
+      "height": 800,
+      "total_pixels": 427200,
+      "basic_score": 0.8283253651480471,
+      "file_name": "review_avatar_3_8.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a young Caucasian person for user testimonial, clean background, approachable expression",
+    "image_info": {
+      "url": "https://media.istockphoto.com/id/1320651997/photo/young-woman-close-up-isolated-studio-portrait.jpg?s=612x612&w=0&k=20&c=lV6pxz-DknISGT2jjiSvUmSaw0hpMDf-dBpT8HTSAUI=",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 19477,
+      "width": 612,
+      "height": 438,
+      "total_pixels": 268056,
+      "basic_score": 0.7710553867389818,
+      "file_name": "review_avatar_3_0.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a Caucasian man for user testimonial, clean background, confident look",
+    "image_info": {
+      "url": "https://www.headshotsnyc.com/wp-content/uploads/White-haired-male-professional-headshot-corporate-executive-1200x628-cropped.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 96530,
+      "width": 1200,
+      "height": 628,
+      "total_pixels": 753600,
+      "basic_score": 0.9054501189282389,
+      "file_name": "review_avatar_2_8.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a Caucasian man for user testimonial, clean background, confident look",
+    "image_info": {
+      "url": "https://media.istockphoto.com/id/1437047112/photo/volunteer-friends-gardening-at-sunset-taking-a-selfie.jpg?s=612x612&w=0&k=20&c=0Qp1W9TjUH_iVgGJOoyELBDIzmrwtIbe22x8xdBwV9M=",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 33040,
+      "width": 612,
+      "height": 408,
+      "total_pixels": 249696,
+      "basic_score": 0.7671535774039261,
+      "file_name": "review_avatar_2_6.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a Caucasian man for user testimonial, clean background, confident look",
+    "image_info": {
+      "url": "https://www.shutterstock.com/image-photo/happy-confident-head-shot-portrait-260nw-2605199867.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 19994,
+      "width": 390,
+      "height": 280,
+      "total_pixels": 109200,
+      "basic_score": 0.7062673610471358,
+      "file_name": "review_avatar_2_1.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a Caucasian woman for user testimonial, clean background, friendly smile",
+    "image_info": {
+      "url": "https://images.squarespace-cdn.com/content/v1/651998e05a97287d391f2a87/1697216435572-VUB8DA3EP3GUG3Y7SYJU/image-asset.jpeg?format=1000w",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 94316,
+      "width": 785,
+      "height": 1080,
+      "total_pixels": 847800,
+      "basic_score": 0.915233606875579,
+      "file_name": "review_avatar_1_7.jpeg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a Caucasian woman for user testimonial, clean background, friendly smile",
+    "image_info": {
+      "url": "https://images.squarespace-cdn.com/content/v1/651998e05a97287d391f2a87/1697150358493-OF7F236OZXVWV7LWYN9H/CEO-Female_Modern_Professional_Headshots-karenVaisman-Photography-Calabasas-LosAngeles-Photographer-nearme-Simi-WestlakeVillage-LA-ty-4.jpg",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 109072,
+      "width": 1129,
+      "height": 1440,
+      "total_pixels": 1625760,
+      "basic_score": 0.8240475835404969,
+      "file_name": "review_avatar_1_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of a Caucasian woman for user testimonial, clean background, friendly smile",
+    "image_info": {
+      "url": "https://st3.depositphotos.com/16405760/18989/i/1600/depositphotos_189891636-stock-photo-professional-head-shot-caucasian-white.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 195939,
+      "width": 1067,
+      "height": 1700,
+      "total_pixels": 1813900,
+      "basic_score": 0.7544819138998954,
+      "file_name": "review_avatar_1_0.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "cute cat and dog together for pet app",
+    "image_info": {
+      "url": "https://khpet.com/cdn/shop/articles/introducing-a-dog-to-a-cat-home_800x800.jpg?v=1593020063",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 59919,
+      "width": 800,
+      "height": 532,
+      "total_pixels": 425600,
+      "basic_score": 0.830763883609628,
+      "file_name": "golden-retriever-cuddling-grey-cat-friends.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image perfectly matches the search query and prompt, depicting a heartwarming and affectionate moment between a dog and a cat. The lighting is soft and professional, ideal for a pet app interface. The image is sharp, clear, and free of any watermarks.",
+      "file_name": "golden-retriever-cuddling-grey-cat-friends.jpg",
+      "caption": "A Golden Retriever dog resting its head affectionately next to a grey and white British Shorthair cat while lying together on a floor in a sunlit room.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "cute cat and dog together for pet app",
+    "image_info": {
+      "url": "https://www.purina.co.uk/sites/default/files/2020-12/Dog_164_Teaser.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 189959,
+      "width": 1080,
+      "height": 608,
+      "total_pixels": 656640,
+      "basic_score": 0.9031178232519491,
+      "file_name": "happy_border_collie_and_bengal_cat_top_view.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "This image perfectly aligns with the search query and prompt. The high-angle 'top-down' perspective creates excellent eye contact, making the subjects appear engaging and cute—ideal for a user interface or pet app. The neutral grey tile background provides clean negative space for text or UI elements. The lighting is even, focus is sharp on the faces, and there are no watermarks.",
+      "file_name": "happy_border_collie_and_bengal_cat_top_view.jpg",
+      "caption": "A high-angle photograph of a smiling Border Collie dog and a Bengal cat sitting side-by-side on a light grey tiled floor, both looking up attentively at the camera.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "cute cat and dog together for pet app",
+    "image_info": {
+      "url": "https://i.ytimg.com/vi/ANQZyelFAog/sddefault.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 45332,
+      "width": 640,
+      "height": 480,
+      "total_pixels": 307200,
+      "basic_score": 0.7902403253796335,
+      "file_name": "orange-kitten-touching-golden-retriever-nose.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 75.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image captures a highly engaging and cute interaction (a kitten 'booping' a dog's nose) that fits the query perfectly. While the emotional appeal is excellent, the visual fidelity is that of a casual snapshot or video frame rather than professional photography, and the background is somewhat cluttered with clothing.",
+      "file_name": "orange-kitten-touching-golden-retriever-nose.jpg",
+      "caption": "A heartwarming close-up of a small orange tabby kitten gently extending its paw to touch the nose of a patient Golden Retriever.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "cute cat and dog together for pet app",
+    "image_info": {
+      "url": "https://i.redd.it/oyor84x48fn91.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 107250,
+      "width": 896,
+      "height": 1100,
+      "total_pixels": 985600,
+      "basic_score": 0.9127216660693573,
+      "file_name": "sleeping-white-dog-hugging-orange-cat.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 65.0,
+      "watermark_score": 100.0,
+      "overall_score": 82.0,
+      "explanation": "The image perfectly captures the concept of 'cat and dog friends' with a highly emotional and heartwarming composition of the two animals hugging. While the subject matter is excellent for a pet app, the image quality is somewhat soft and grainy, resembling a candid snapshot rather than a high-resolution professional photo. However, the 'cuteness' factor compensates for the technical limitations.",
+      "file_name": "sleeping-white-dog-hugging-orange-cat.jpg",
+      "caption": "A close-up, top-down view of a white dog and an orange tabby cat sleeping soundly while embracing, with their paws crossed over each other on a dark tiled floor.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "a happy dog portrait for pet health app",
+    "image_info": {
+      "url": "https://i.pinimg.com/736x/2b/49/3c/2b493ce3344237c861daef3fba855f66.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 130111,
+      "width": 736,
+      "height": 1104,
+      "total_pixels": 812544,
+      "basic_score": 0.9025336836699251,
+      "file_name": "happy-golden-retriever-laughing-deck.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly embodies the search query with a Golden Retriever displaying an exceptionally happy, 'laughing' expression. The clarity is excellent, capturing the texture of the fur and the wetness of the nose. There are no watermarks. The joyful emotion makes it an ideal candidate for a pet health app focusing on well-being.",
+      "file_name": "happy-golden-retriever-laughing-deck.jpg",
+      "caption": "Top-down view of a happy Golden Retriever lying on its back on a wooden deck, appearing to laugh with eyes closed and mouth wide open, wearing a shamrock bandana.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "a happy dog portrait for pet health app",
+    "image_info": {
+      "url": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/portrait-of-a-happy-dog-osvaldo-hamer.jpg",
+      "img_format": "JPEG",
+      "mode": "L",
+      "file_size": 92422,
+      "width": 675,
+      "height": 900,
+      "total_pixels": 607500,
+      "basic_score": 0.8738727513191313,
+      "file_name": "happy-golden-retriever-portrait-bw.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 92.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "This is an exceptional image for the intended use. The 'snoot' angle creates an immediate emotional connection, perfectly embodying a 'happy dog.' The high-contrast black and white style is artistic and clean, while the pure white background makes it incredibly easy for designers to integrate into a pet health app interface without complex masking.",
+      "file_name": "happy-golden-retriever-portrait-bw.jpg",
+      "caption": "A close-up, black and white portrait of a happy dog, likely a Golden Retriever, looking into the camera with a wide smile and tongue out against a white background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "a happy dog portrait for pet health app",
+    "image_info": {
+      "url": "https://media.istockphoto.com/id/1503385646/photo/portrait-funny-and-happy-shiba-inu-puppy-dog-peeking-out-from-behind-a-blue-banner-isolated.jpg?s=612x612&w=0&k=20&c=xZq8PhunL9ZmY243et3GOf04wJPBmHzeiQ3jw7nWCrY=",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 20358,
+      "width": 553,
+      "height": 612,
+      "total_pixels": 338436,
+      "basic_score": 0.7959394558512187,
+      "file_name": "happy-shiba-inu-dog-portrait-blue-background.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image perfectly matches the query for a 'happy dog' with a vibrant, smiling expression. Its composition, featuring significant negative space on the solid blue background, makes it exceptionally suitable for a 'pet health app' interface where text or UI elements need to be placed. The lighting is even and professional.",
+      "file_name": "happy-shiba-inu-dog-portrait-blue-background.jpg",
+      "caption": "A cheerful Shiba Inu dog peeking into the frame from the right with its tongue out, set against a clean, light blue background with ample copy space on the left.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "a happy dog portrait for pet health app",
+    "image_info": {
+      "url": "https://www.pawsbyzann.com/wp-content/uploads/2019/02/Bruce-Final-small.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 111633,
+      "width": 751,
+      "height": 1000,
+      "total_pixels": 751000,
+      "basic_score": 0.8984356482543594,
+      "file_name": "happy-corgi-painted-portrait-grey-background.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 92.0,
+      "watermark_score": 85.0,
+      "overall_score": 92.0,
+      "explanation": "The image is an excellent match for the query, featuring a clearly happy Corgi in a portrait style. The artistic painted style is high-quality and welcoming, making it suitable for a pet health app interface where a friendly tone is desired. While there is a small artist signature ('ZANN') in the bottom right corner, it is unobtrusive and does not detract from the main subject. The composition allows for easy cropping or overlaying of text.",
+      "file_name": "happy-corgi-painted-portrait-grey-background.jpg",
+      "caption": "A realistic painting of a smiling Pembroke Welsh Corgi with perked ears and tongue out against a neutral grey background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "a happy dog portrait for pet health app",
+    "image_info": {
+      "url": "https://www.pawsbyzann.com/wp-content/uploads/2020/10/Lola-Final-copy.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 358679,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9488102315034711,
+      "file_name": "happy-dog-painting-portrait-tan-white.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 92.0,
+      "watermark_score": 85.0,
+      "overall_score": 90.0,
+      "explanation": "The image matches the search query perfectly, depicting a visibly happy dog in a classic portrait style. The artwork is high-quality with clear details showing the canvas texture. While there is a small artist signature in the bottom right corner, it does not detract from the image's usability. The friendly and artistic style would work well for the branding or illustrative elements of a pet health app.",
+      "file_name": "happy-dog-painting-portrait-tan-white.jpg",
+      "caption": "A detailed painting on canvas of a happy mixed-breed dog with tan and white fur, perked ears, and a panting smile, set against a soft blue-grey background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "adorable puppy for pet health testimonial",
+    "image_info": {
+      "url": "https://s.yimg.com/ny/api/res/1.2/FwpSU4ewvhUXV2bYaH4gmQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/parade_pets_articles_328/9a60687ceb6bb11aae4212f0ef7709d6",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 183708,
+      "width": 1200,
+      "height": 800,
+      "total_pixels": 960000,
+      "basic_score": 0.9410181374182113,
+      "file_name": "golden-retriever-puppy-sitting-red-collar.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image is a perfect match for the query, featuring a high-quality, sharp depiction of a Golden Retriever puppy. The composition, soft lighting, and domestic setting make it ideal for a heartwarming pet health testimonial. There are no watermarks.",
+      "file_name": "golden-retriever-puppy-sitting-red-collar.jpg",
+      "caption": "A cute Golden Retriever puppy wearing a red collar sitting attentively on a woven rug in a bright, modern home environment.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "adorable puppy for pet health testimonial",
+    "image_info": {
+      "url": "https://i.etsystatic.com/15554723/r/il/805942/1292055997/il_570xN.1292055997_etfo.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 58433,
+      "width": 570,
+      "height": 492,
+      "total_pixels": 280440,
+      "basic_score": 0.7765717583169175,
+      "file_name": "golden-retriever-puppy-sitting-in-garden.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query, featuring a quintessential Golden Retriever puppy. The subject looks healthy, fluffy, and engaging, making it highly effective for a 'pet health testimonial.' The composition uses a shallow depth of field to isolate the subject beautifully against a garden background. The image is sharp, clear, and free of watermarks.",
+      "file_name": "golden-retriever-puppy-sitting-in-garden.jpg",
+      "caption": "A fluffy Golden Retriever puppy sitting attentively on a lush green lawn with a blurred garden background featuring a birdbath.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "adorable puppy for pet health testimonial",
+    "image_info": {
+      "url": "https://www.pdsa.org.uk/media/7646/golden-retriever-gallery-2.jpg?anchor=center&mode=crop&quality=100&height=500&bgcolor=fff&rnd=133020229510000000",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 87653,
+      "width": 500,
+      "height": 500,
+      "total_pixels": 250000,
+      "basic_score": 0.7770353168219628,
+      "file_name": "golden-retriever-puppy-red-collar-grass.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query, featuring a quintessential Golden Retriever puppy. The composition is excellent with a shallow depth of field that keeps the focus on the puppy's face. The subject looks healthy, alert, and adorable, making it an ideal choice for a pet health testimonial context. The image is free of watermarks and technical defects.",
+      "file_name": "golden-retriever-puppy-red-collar-grass.jpg",
+      "caption": "A fluffy Golden Retriever puppy wearing a red leather collar sitting in vibrant green grass, looking directly at the camera with a soft bokeh background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "adorable puppy for pet health testimonial",
+    "image_info": {
+      "url": "https://www.petplace.com/article/dogs/pet-care/dog-care/puppy-care/media_16e89029edcc85076147cda767a7cd26d98767af3.png?width=750&format=png&optimize=medium",
+      "img_format": "PNG",
+      "mode": "P",
+      "file_size": 186847,
+      "width": 750,
+      "height": 535,
+      "total_pixels": 401250,
+      "basic_score": 0.8272518910481896,
+      "file_name": "happy-golden-retriever-puppy-running-grass.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image captures a lively and healthy-looking puppy that matches the 'Golden Retriever' query perfectly. The shallow depth of field keeps the focus on the subject's happy expression, making it emotionally resonant and ideal for a pet health testimonial. The lighting is natural and professional, with no visible watermarks.",
+      "file_name": "happy-golden-retriever-puppy-running-grass.jpg",
+      "caption": "A cream-colored Golden Retriever puppy running joyfully across a green lawn with a blurred background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "adorable puppy for pet health testimonial",
+    "image_info": {
+      "url": "https://images.squarespace-cdn.com/content/v1/5baffc59fb182025fee90fef/0d2bc469-e090-4b1a-a8c1-71b14f2e6e9e/training-golden-retrievers.jpg",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 136740,
+      "width": 1080,
+      "height": 1080,
+      "total_pixels": 1166400,
+      "basic_score": 0.9337065321259085,
+      "file_name": "happy-golden-retriever-dog-laying-in-grass.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 65.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image is of high photographic quality, featuring beautiful lighting and a happy expression that fits a 'pet health testimonial' perfectly. However, the search query specifically requested a 'puppy', and the subject is clearly an adult Golden Retriever. Despite the age discrepancy, it is a strong image for the intended use case.",
+      "file_name": "happy-golden-retriever-dog-laying-in-grass.jpg",
+      "caption": "A golden retriever dog lying in a grassy field with trees in the background, smiling with its tongue out during golden hour.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "a cute cat portrait for pet health app hero image",
+    "image_info": {
+      "url": "https://www.dailydogtag.com/wp-content/uploads/2020/05/%C2%A9K-Schulz-Photography-lifestyle-cat-portraits-11.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 286397,
+      "width": 800,
+      "height": 533,
+      "total_pixels": 426400,
+      "basic_score": 0.8561610152774287,
+      "file_name": "fluffy-tabby-kitten-pink-collar-portrait.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query, featuring an adorable and engaging subject. The clarity is excellent with sharp focus on the eyes and a professional shallow depth of field. It is clean, free of watermarks, and evokes a positive, healthy emotion suitable for a pet health app hero image.",
+      "file_name": "fluffy-tabby-kitten-pink-collar-portrait.jpg",
+      "caption": "A close-up portrait of a fluffy tabby kitten with bright green eyes wearing a pink ruffled collar, looking upward with an attentive expression against a soft, blurred beige background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "a cute cat portrait for pet health app hero image",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/61bNReC5OVL._AC_UF894,1000_QL80_.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 42455,
+      "width": 894,
+      "height": 596,
+      "total_pixels": 532824,
+      "basic_score": 0.8593218146303078,
+      "file_name": "cute-tabby-kitten-blue-eyes-pink-background-hero.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 85.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image is an excellent match for the specific prompt of a 'pet health app hero image.' The composition is strategically framed with the subject on the left and clean, solid negative space on the right, which is ideal for overlaying headlines or UI elements. The kitten's inquisitive expression and blue eyes create a strong emotional connection, while the soft pink background suggests a gentle, caring brand aesthetic suitable for health topics.",
+      "file_name": "cute-tabby-kitten-blue-eyes-pink-background-hero.jpg",
+      "caption": "A close-up portrait of a young tabby kitten with bright blue eyes and a tilted head, set against a plain pastel pink background with ample negative space on the right.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "a cute cat portrait for pet health app hero image",
+    "image_info": {
+      "url": "https://crownandpaw.com/cdn/shop/files/The_Ambassador_-_Custom_Pet_Canvas_1ac0d628-7ec4-4dfd-a61e-28937231f7e8.webp?v=1765628518",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 340895,
+      "width": 1039,
+      "height": 1040,
+      "total_pixels": 1080560,
+      "basic_score": 0.9459001323461234,
+      "file_name": "tabby-cat-with-aristocratic-portrait-canvas.jpg"
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 85.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 82.0,
+      "explanation": "The image is highly relevant to the search query 'cute cat pet portrait,' cleverly showing both the live cat and a custom portrait canvas. The clarity and focus are excellent. However, as a 'health app hero image,' the square aspect ratio and wrinkled grey background may limit the placement of text overlays compared to a wider, cleaner composition.",
+      "file_name": "tabby-cat-with-aristocratic-portrait-canvas.jpg",
+      "caption": "A cute tabby and white cat resting on a grey sofa next to a framed canvas portrait depicting itself dressed in vintage aristocratic attire.",
+      "recommend": true,
+      "error": ""
+    }
+  }
+]
