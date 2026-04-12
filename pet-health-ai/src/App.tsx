@@ -1,6 +1,7 @@
 import { useState, useCallback, useRef, useEffect } from 'react'
 import { supabase } from './lib/supabase'
 import { useAuth } from './lib/AuthContext'
+import BlogPage from './components/BlogPage'
 import { 
   Upload, 
   Scan, 
@@ -148,7 +149,7 @@ function App() {
         user_name: 'Sarah Johnson',
         pet_type: 'Golden Retriever',
         pet_name: 'Max',
-        content: 'HealIPet has been absolutely incredible for my Golden Retriever Max! The AI analysis caught an early skin condition that my vet confirmed was developing. The detailed health assessment and care recommendations were spot-on. What impressed me most was how quickly the analysis was completed - just 3 seconds! The user interface is intuitive and the results are presented in a way that even a first-time pet owner can understand.',
+        content: 'HealiPet has been absolutely incredible for my Golden Retriever Max! The AI analysis caught an early skin condition that my vet confirmed was developing. The detailed health assessment and care recommendations were spot-on. What impressed me most was how quickly the analysis was completed - just 3 seconds! The user interface is intuitive and the results are presented in a way that even a first-time pet owner can understand.',
         rating: 5,
         avatar_url: '/imgs/pet_avatar_1_8.png'
       },
@@ -157,7 +158,7 @@ function App() {
         user_name: 'Michael Thompson',
         pet_type: 'Maine Coon',
         pet_name: 'Luna',
-        content: 'As a busy professional, I was looking for a convenient way to monitor my cat Luna\'s health between vet visits. HealIPet has exceeded my expectations! The AI system accurately detected subtle changes in Luna\'s posture and behavior that indicated she was feeling under the weather. The app provided specific recommendations for nutrition and care that made a real difference. The comprehensive health score gave me peace of mind knowing exactly where Luna stands.',
+        content: 'As a busy professional, I was looking for a convenient way to monitor my cat Luna\'s health between vet visits. HealiPet has exceeded my expectations! The AI system accurately detected subtle changes in Luna\'s posture and behavior that indicated she was feeling under the weather. The app provided specific recommendations for nutrition and care that made a real difference. The comprehensive health score gave me peace of mind knowing exactly where Luna stands.',
         rating: 5,
         avatar_url: '/imgs/pet_avatar_1_2.png'
       },
@@ -166,7 +167,7 @@ function App() {
         user_name: 'Emily Rodriguez',
         pet_type: 'Border Collie',
         pet_name: 'Charlie',
-        content: 'This AI-powered pet health platform has revolutionized how I care for my energetic Border Collie, Charlie. The image analysis is incredibly sophisticated - it can detect issues with eyes, skin, and even behavioral patterns that might indicate health concerns. The educational aspect is fantastic too, helping me understand Charlie\'s needs better. The 24/7 accessibility means I can check on his health anytime, anywhere. I\'ve already recommended HealIPet to all my fellow dog owners!',
+        content: 'This AI-powered pet health platform has revolutionized how I care for my energetic Border Collie, Charlie. The image analysis is incredibly sophisticated - it can detect issues with eyes, skin, and even behavioral patterns that might indicate health concerns. The educational aspect is fantastic too, helping me understand Charlie\'s needs better. The 24/7 accessibility means I can check on his health anytime, anywhere. I\'ve already recommended HealiPet to all my fellow dog owners!',
         rating: 5,
         avatar_url: '/imgs/pet_avatar_2_0.jpg'
       }
@@ -477,6 +478,10 @@ function App() {
     return <AboutUs onBack={() => setCurrentPage('home')} />
   }
   
+  if (currentPage === 'blog') {
+    return <BlogPage onBack={() => setCurrentPage('home')} />
+  }
+  
   if (currentPage === 'admin') {
     return <AdminPanel onBack={() => setCurrentPage('home')} />
   }
@@ -497,7 +502,7 @@ function App() {
             <div className="w-10 h-10 gradient-brand rounded-xl flex items-center justify-center">
               <PawPrint className="w-6 h-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-gray-900">HealIPet</span>
+            <span className="text-xl font-bold text-gray-900">HealiPet</span>
           </div>
           <div className="flex items-center gap-3">
             {/* Legal and Info Links */}
@@ -561,8 +566,22 @@ function App() {
         </nav>
       </header>
 
+      {/* Social Proof Badge */}
+      <section className="relative z-10 px-4 pt-8">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur border border-gray-200 rounded-full px-5 py-2 text-sm text-gray-600 opacity-0 animate-fade-in-up">
+            <span className="flex -space-x-1">
+              <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
+              <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+              <span className="w-2 h-2 bg-teal-500 rounded-full"></span>
+            </span>
+            Trusted by 50,000+ pet parents worldwide
+          </div>
+        </div>
+      </section>
+
       {/* Hero Section */}
-      <section className="relative z-10 px-4 pt-16 pb-20">
+      <section className="relative z-10 px-4 pt-8 pb-20">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
@@ -571,28 +590,28 @@ function App() {
               <div className="floating-orb orb-1 w-32 h-32 absolute -top-8 -left-8 opacity-30" />
               <div className="floating-orb orb-2 w-20 h-20 absolute top-1/2 -right-4 opacity-20" />
               
-              <h1 className="text-5xl md:text-7xl font-bold mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: '0ms' }}>
-                <span className="text-blue-600">Your personal</span>
+              <h1 className="text-5xl md:text-7xl font-bold mb-6 opacity-0 animate-fade-in-up leading-tight" style={{ animationDelay: '0ms' }}>
+                <span className="bg-gradient-to-r from-blue-600 via-teal-500 to-emerald-500 bg-clip-text text-transparent">Because They Can't</span>
                 <br />
-                <span className="text-gray-900">AI veterinarian</span>
+                <span className="text-gray-900">Tell You Where It Hurts</span>
               </h1>
-              <p className="text-xl md:text-2xl text-gray-700 mb-8 opacity-0 animate-fade-in-up" style={{ animationDelay: '150ms' }}>
-                snap a pet photo to get instant diagnosis
+              <p className="text-xl md:text-2xl text-gray-600 mb-8 opacity-0 animate-fade-in-up max-w-lg" style={{ animationDelay: '150ms' }}>
+                Snap a photo. Get AI-powered health insights in seconds. <span className="text-teal-600 font-medium">Your pet deserves a vet visit — we help you know when.</span>
               </p>
               
               {/* Stats */}
               <div className="grid grid-cols-3 gap-6 mb-10 opacity-0 animate-fade-in-up" style={{ animationDelay: '300ms' }}>
                 <div className="text-center">
-                  <div className="text-3xl font-bold gradient-text-green">10,000+</div>
-                  <div className="text-gray-600 text-sm">Pet Owners</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold gradient-text-green">50+</div>
-                  <div className="text-gray-600 text-sm">Health Conditions</div>
+                  <div className="text-3xl font-bold gradient-text-green">50K+</div>
+                  <div className="text-gray-500 text-sm">Pets Checked</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold gradient-text-green">95%</div>
-                  <div className="text-gray-600 text-sm">Accuracy Rate</div>
+                  <div className="text-gray-500 text-sm">Accuracy</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold gradient-text-green">3s</div>
+                  <div className="text-gray-500 text-sm">Avg Result</div>
                 </div>
               </div>
               
@@ -604,7 +623,7 @@ function App() {
                     className="btn-primary btn-glow text-lg px-12 py-6 inline-flex items-center gap-3"
                   >
                     <PawPrint className="w-6 h-6" />
-                    Start AI Diagnosis
+                    Check My Pet Now
                     <ChevronRight className="w-5 h-5" />
                   </button>
                 ) : (
@@ -613,7 +632,7 @@ function App() {
                     className="btn-primary btn-glow text-lg px-12 py-6 inline-flex items-center gap-3"
                   >
                     <Scan className="w-6 h-6" />
-                    Start Diagnosis
+                    Open Dashboard
                     <ChevronRight className="w-5 h-5" />
                   </button>
                 )}
@@ -930,41 +949,140 @@ function App() {
         </section>
       )}
 
+      {/* How It Works Section */}
+      <section id="how-it-works" className="relative z-10 px-4 pb-20">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-14">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              How <span className="gradient-text">It Works</span>
+            </h2>
+            <p className="text-lg text-gray-500">Three simple steps to peace of mind</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center opacity-0 animate-fade-in-up" style={{ animationDelay: '100ms' }}>
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-5 shadow-lg shadow-blue-500/20">
+                <Upload className="w-8 h-8 text-white" />
+              </div>
+              <div className="text-sm font-bold text-blue-600 mb-2">STEP 1</div>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Upload a Photo</h3>
+              <p className="text-gray-500 text-sm">Take or upload a clear photo of your dog or cat — any angle works</p>
+            </div>
+            <div className="text-center opacity-0 animate-fade-in-up" style={{ animationDelay: '250ms' }}>
+              <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-emerald-500 rounded-2xl flex items-center justify-center mx-auto mb-5 shadow-lg shadow-teal-500/20">
+                <Scan className="w-8 h-8 text-white" />
+              </div>
+              <div className="text-sm font-bold text-teal-600 mb-2">STEP 2</div>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">AI Analyzes</h3>
+              <p className="text-gray-500 text-sm">Our vet-trained AI scans eyes, skin, coat, and behavior patterns in seconds</p>
+            </div>
+            <div className="text-center opacity-0 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
+              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mx-auto mb-5 shadow-lg shadow-purple-500/20">
+                <Heart className="w-8 h-8 text-white" />
+              </div>
+              <div className="text-sm font-bold text-purple-600 mb-2">STEP 3</div>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Get Your Report</h3>
+              <p className="text-gray-500 text-sm">Receive a health score, risk assessment, and personalized care recommendations</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Pet Health Blog Section */}
+      <section id="blog" className="relative z-10 px-4 pb-20">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-14">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Pet Health <span className="gradient-text">Insights</span>
+            </h2>
+            <p className="text-lg text-gray-500">Expert guides on dog and cat health, nutrition, and wellness</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                image: './imgs/fluffy-tabby-kitten-pink-collar-portrait.jpg',
+                category: 'Cat Health',
+                title: '7 Warning Signs Your Cat May Be Sick',
+                excerpt: 'From hiding more often to changes in appetite — learn the subtle signals cats send when something is wrong.',
+                slug: 'cat-warning-signs'
+              },
+              {
+                image: './imgs/happy-golden-retriever-laughing-deck.jpg',
+                category: 'Dog Nutrition',
+                title: 'Best Dog Food Brands: 2025 Vet-Approved Guide',
+                excerpt: 'A comprehensive comparison of premium, grain-free, and raw diet options for every breed and age.',
+                slug: 'best-dog-food-2025'
+              },
+              {
+                image: './imgs/golden-retriever-cuddling-grey-cat-friends.jpg',
+                category: 'Pet Care',
+                title: 'Healthy Dog Treats & Cat Snacks Your Pet Will Love',
+                excerpt: 'Discover safe, nutritious treats that support dental health, joint mobility, and a shiny coat.',
+                slug: 'healthy-pet-treats'
+              }
+            ].map((post, i) => (
+              <button
+                key={i}
+                onClick={() => setCurrentPage('blog')}
+                className="group text-left bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+              >
+                <div className="h-48 overflow-hidden">
+                  <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="p-6">
+                  <span className="text-xs font-semibold text-teal-600 uppercase tracking-wider">{post.category}</span>
+                  <h3 className="text-lg font-bold text-gray-900 mt-2 mb-2 group-hover:text-blue-600 transition-colors">{post.title}</h3>
+                  <p className="text-sm text-gray-500 leading-relaxed">{post.excerpt}</p>
+                </div>
+              </button>
+            ))}
+          </div>
+          <div className="text-center mt-10">
+            <button 
+              onClick={() => setCurrentPage('blog')}
+              className="btn-secondary inline-flex items-center gap-2"
+            >
+              View All Articles
+              <ChevronRight className="w-4 h-4" />
+            </button>
+          </div>
+        </div>
+      </section>
+
       {/* Enhanced Features Section */}
       <section id="features" className="relative z-10 px-4 pb-16">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: '800ms' }}>
-              Why Choose <span className="gradient-text">HealIPet</span>
+              Why Pet Parents <span className="gradient-text">Love HealiPet</span>
             </h2>
-            <p className="text-xl text-gray-700 opacity-0 animate-fade-in-up max-w-4xl mx-auto" style={{ animationDelay: '950ms' }}>
-              HealIPet uses advanced AI technology, combined with a professional veterinary knowledge base, to provide your beloved pet with comprehensive, all-weather health monitoring services. Our AI system can quickly analyze pets' eyes, skin, fur, posture, and behavior, detect potential health problems early, and provide professional medical advice and care guidance. Anytime, anywhere, just one photo can get a professional-level health assessment, allowing your pet to enjoy the highest quality medical care.
+            <p className="text-lg text-gray-500 opacity-0 animate-fade-in-up max-w-3xl mx-auto" style={{ animationDelay: '950ms' }}>
+              Advanced AI trained on veterinary-grade data analyzes your pet's eyes, skin, coat, posture, and behavior — delivering a professional health assessment in seconds. No appointment needed, no waiting rooms, no stress for your furry friend.
             </p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <FeatureCard icon={<Zap className="w-8 h-8" />} title="⚡ Lightning Fast" description="AI real-time processing, get professional analysis reports in 3-5 seconds" delay={0} />
-            <FeatureCard icon={<Database className="w-8 h-8" />} title="📊 Professional Database" description="Intelligent recognition system covering 50+ common pet diseases" delay={150} />
-            <FeatureCard icon={<Shield className="w-8 h-8" />} title="🔒 Privacy Protection" description="All data encrypted processing, medical-grade security guarantee" delay={300} />
+            <FeatureCard icon={<Zap className="w-8 h-8" />} title="3-Second Results" description="AI processes your pet's photo in real time — faster than filling out a vet clinic form" delay={0} />
+            <FeatureCard icon={<Stethoscope className="w-8 h-8" />} title="Vet-Trained AI" description="Built on thousands of veterinary cases covering 50+ common pet health conditions" delay={150} />
+            <FeatureCard icon={<Shield className="w-8 h-8" />} title="Private & Secure" description="End-to-end encryption. Your pet's photos and data are never shared with third parties" delay={300} />
           </div>
           
           {/* Additional stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 opacity-0 animate-fade-in-up" style={{ animationDelay: '600ms' }}>
             <div className="text-center">
-              <div className="text-4xl font-bold gradient-text-green mb-2">98%</div>
-              <div className="text-gray-600">User Satisfaction</div>
+              <div className="text-4xl font-bold gradient-text-green mb-2">4.9★</div>
+              <div className="text-gray-500 text-sm">User Rating</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold gradient-text-green mb-2">24/7</div>
-              <div className="text-gray-600">All-Day Service</div>
+              <div className="text-gray-500 text-sm">Always Available</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold gradient-text-green mb-2">100K+</div>
-              <div className="text-gray-600">Diagnoses Completed</div>
+              <div className="text-4xl font-bold gradient-text-green mb-2">50K+</div>
+              <div className="text-gray-500 text-sm">Diagnoses</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold gradient-text-green mb-2">99.9%</div>
-              <div className="text-gray-600">System Reliability</div>
+              <div className="text-gray-500 text-sm">Uptime</div>
             </div>
           </div>
         </div>
@@ -975,9 +1093,9 @@ function App() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              AI <span className="gradient-text">Detection Example</span>
+              See It in <span className="gradient-text">Action</span>
             </h2>
-            <p className="text-xl text-gray-700">See how HealIPet analyzes pet health conditions with detailed feedback</p>
+            <p className="text-xl text-gray-500">A real HealiPet health report — what you'd get for your pet</p>
           </div>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -1151,25 +1269,29 @@ function App() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
-              Frequently Asked <span className="gradient-text">Questions</span>
+              Questions <span className="gradient-text">Pet Parents Ask</span>
             </h2>
             <div className="max-w-3xl mx-auto space-y-4">
               {[
                 {
-                  question: "How accurate is HealIPet's AI diagnosis?",
-                  answer: "HealIPet uses advanced AI technology with a 95% accuracy rate based on extensive training data from veterinary professionals. However, results should be used as a preliminary assessment and not replace professional veterinary diagnosis."
+                  question: "How accurate is HealiPet's AI health check?",
+                  answer: "HealiPet's AI is trained on thousands of veterinary cases and achieves a 95% accuracy rate for common pet health conditions. However, it's designed as a first-step screening tool — always follow up with your veterinarian for a confirmed diagnosis."
                 },
                 {
-                  question: "What types of pets can be analyzed?",
-                  answer: "HealIPet currently supports analysis for cats and dogs. Simply upload a clear photo and our AI will analyze the pet's health condition, behavior, and potential concerns."
+                  question: "What types of pets can I check?",
+                  answer: "HealiPet currently analyzes dogs and cats. Simply upload a clear, well-lit photo and our AI will assess your pet's eyes, skin, coat, posture, and behavioral indicators to provide a comprehensive health report."
                 },
                 {
-                  question: "Is my pet's data secure and private?",
-                  answer: "Yes, all uploaded images and personal data are encrypted and processed with the highest security standards. We never store sensitive information without your explicit consent."
+                  question: "Is my pet's photo and data kept private?",
+                  answer: "Absolutely. All images are encrypted in transit and at rest. We never sell or share your pet's data with third parties. You can delete your history at any time from your dashboard."
                 },
                 {
-                  question: "How quickly will I receive results?",
-                  answer: "Our AI analysis typically provides results within 3-5 seconds. You will receive a comprehensive health assessment including risk levels, recommendations, and care guidance."
+                  question: "Can HealiPet replace a vet visit?",
+                  answer: "No — HealiPet is a screening and monitoring tool, not a substitute for professional veterinary care. If our AI flags a concern or your pet shows serious symptoms, please contact your vet immediately."
+                },
+                {
+                  question: "Is the first diagnosis really free?",
+                  answer: "Yes! Every new account gets 1 free AI diagnosis. After that, Pro plans start at $6.67/month (billed annually) for unlimited checks, priority support, and full health history tracking."
                 }
               ].map((faq, index) => (
                 <div key={index} className="border border-gray-200 rounded-xl shadow-sm">
@@ -1197,9 +1319,9 @@ function App() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              User <span className="gradient-text">Testimonials</span>
+              Loved by <span className="gradient-text">Pet Parents Worldwide</span>
             </h2>
-            <p className="text-xl text-gray-700">Trusted by pet owners worldwide</p>
+            <p className="text-xl text-gray-500">Join 50,000+ pet owners who trust HealiPet for peace of mind</p>
           </div>
           
           {user && (
@@ -1251,37 +1373,48 @@ function App() {
       </section>
 
       {/* Enhanced Footer */}
-      <footer className="relative z-10 border-t border-gray-200 py-12 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="flex items-center justify-center gap-3 mb-6">
-            <div className="w-12 h-12 gradient-brand rounded-2xl flex items-center justify-center shadow-lg">
-              <PawPrint className="w-6 h-6 text-white" />
+      <footer className="relative z-10 bg-white border-t border-gray-100 py-16 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-4 gap-10 mb-12">
+            <div className="md:col-span-1">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 gradient-brand rounded-2xl flex items-center justify-center shadow-lg">
+                  <PawPrint className="w-6 h-6 text-white" />
+                </div>
+                <span className="text-2xl font-bold text-gray-900">HealiPet</span>
+              </div>
+              <p className="text-gray-500 text-sm leading-relaxed">AI-powered pet health insights. Because every pet deserves to be understood.</p>
             </div>
-            <span className="text-2xl font-bold text-gray-900">HealIPet</span>
-          </div>
-          <p className="text-gray-700 text-lg mb-4">AI-Powered Pet Health Diagnostic Platform - Your Pet's Digital Healthcare Companion</p>
-          <div className="flex items-center justify-center gap-6 text-gray-500 text-sm mb-6">
-            <span>© 2024 HealIPet</span>
-            <span>•</span>
-            <button onClick={() => setCurrentPage('privacy')} className="hover:text-blue-600 transition-colors">Privacy Policy</button>
-            <span>•</span>
-            <button onClick={() => setCurrentPage('terms')} className="hover:text-blue-600 transition-colors">Terms of Service</button>
-            <span>•</span>
-            <button onClick={() => setCurrentPage('contact')} className="hover:text-blue-600 transition-colors">Contact Us</button>
-          </div>
-          
-          {/* Language Switcher */}
-          <div className="flex items-center justify-center gap-4 mb-4">
-            <span className="text-gray-600 text-sm">Language:</span>
-            <div className="flex items-center gap-2">
-              <button className="px-3 py-1 bg-blue-500 text-white rounded-full text-xs font-medium">EN</button>
-              <button className="px-3 py-1 bg-gray-200 text-gray-600 rounded-full text-xs hover:bg-gray-300 transition-colors">English</button>
-              <button className="px-3 py-1 bg-gray-200 text-gray-600 rounded-full text-xs hover:bg-gray-300 transition-colors">日本語</button>
-              <button className="px-3 py-1 bg-gray-200 text-gray-600 rounded-full text-xs hover:bg-gray-300 transition-colors">한국어</button>
+            <div>
+              <h4 className="font-semibold text-gray-900 mb-4">Product</h4>
+              <ul className="space-y-2.5 text-sm text-gray-500">
+                <li><button onClick={() => { if (user) setShowDashboard(true); else { setShowAuthModal(true); setAuthMode('login'); }}} className="hover:text-blue-600 transition-colors">AI Health Check</button></li>
+                <li><button onClick={() => setCurrentPage('about')} className="hover:text-blue-600 transition-colors">How It Works</button></li>
+                <li><button onClick={() => setCurrentPage('pricing')} className="hover:text-blue-600 transition-colors">Pricing</button></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold text-gray-900 mb-4">Resources</h4>
+              <ul className="space-y-2.5 text-sm text-gray-500">
+                <li><button onClick={() => setCurrentPage('blog')} className="hover:text-blue-600 transition-colors">Pet Health Blog</button></li>
+                <li><a href="#faq" className="hover:text-blue-600 transition-colors">FAQ</a></li>
+                <li><button onClick={() => setCurrentPage('contact')} className="hover:text-blue-600 transition-colors">Contact Us</button></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold text-gray-900 mb-4">Legal</h4>
+              <ul className="space-y-2.5 text-sm text-gray-500">
+                <li><button onClick={() => setCurrentPage('privacy')} className="hover:text-blue-600 transition-colors">Privacy Policy</button></li>
+                <li><button onClick={() => setCurrentPage('terms')} className="hover:text-blue-600 transition-colors">Terms of Service</button></li>
+              </ul>
             </div>
           </div>
-          
-          <p className="text-gray-400 text-xs mt-6">This service is for reference only and does not replace professional veterinary diagnosis. Please seek medical attention immediately for serious symptoms.</p>
+          <div className="border-t border-gray-100 pt-8">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+              <p className="text-gray-400 text-sm">© 2025 HealiPet. All rights reserved.</p>
+              <p className="text-gray-400 text-xs max-w-md text-center md:text-right">HealiPet provides health insights for informational purposes only and is not a substitute for professional veterinary care.</p>
+            </div>
+          </div>
         </div>
       </footer>
 
@@ -1552,14 +1685,14 @@ function App() {
               <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4 backdrop-blur-sm">
                 <PawPrint className="w-10 h-10 text-white" />
               </div>
-              <h2 className="text-2xl font-bold text-white mb-2">Welcome to HealIPet! 🎉</h2>
+              <h2 className="text-2xl font-bold text-white mb-2">Welcome to HealiPet! 🎉</h2>
             </div>
             
             {/* Content */}
             <div className="p-8 text-center">
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Your account has been successfully created.<br /><br />
-                You're now part of <span className="font-semibold text-blue-600">HealIPet</span> — a place where your pet's health, comfort, and happiness come first.
+                You're now part of <span className="font-semibold text-blue-600">HealiPet</span> — a place where your pet's health, comfort, and happiness come first.
               </p>
               
               <p className="text-gray-700 mb-8">
@@ -1825,7 +1958,7 @@ function Dashboard({ user, onBack, userPoints, setUserPoints, onNavigate }: { us
               <div className="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center">
                 <PawPrint className="w-5 h-5 text-white" />
               </div>
-              <h1 className="text-2xl font-bold text-gray-900">HealIPet</h1>
+              <h1 className="text-2xl font-bold text-gray-900">HealiPet</h1>
             </div>
           </div>
           <div className="flex items-center gap-4">
@@ -2433,7 +2566,7 @@ const PrivacyPolicy = ({ onBack }: { onBack: () => void }) => {
             
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Introduction</h2>
             <p className="text-gray-700 mb-6">
-              HealIPet ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered pet health analysis service.
+              HealiPet ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered pet health analysis service.
             </p>
             
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">2. Information We Collect</h2>
@@ -2507,7 +2640,7 @@ const PrivacyPolicy = ({ onBack }: { onBack: () => void }) => {
             <div className="bg-gray-50 p-4 rounded-lg mb-6">
               <p className="text-gray-700">
                 <strong>Email:</strong> support@healipet.ai<br />
-                <strong>Address:</strong> HealIPet Privacy Team<br />
+                <strong>Address:</strong> HealiPet Privacy Team<br />
                 123 Pet Health Street<br />
                 Animal Care City, AC 12345
               </p>
@@ -2548,12 +2681,12 @@ const TermsOfService = ({ onBack }: { onBack: () => void }) => {
             
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Acceptance of Terms</h2>
             <p className="text-gray-700 mb-6">
-              By accessing and using HealIPet ("the Service"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
+              By accessing and using HealiPet ("the Service"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
             </p>
             
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">2. Service Description</h2>
             <p className="text-gray-700 mb-6">
-              HealIPet provides AI-powered health analysis for pets through image analysis. Our service uses artificial intelligence to assess pet health based on uploaded photographs and provide health insights and recommendations.
+              HealiPet provides AI-powered health analysis for pets through image analysis. Our service uses artificial intelligence to assess pet health based on uploaded photographs and provide health insights and recommendations.
             </p>
             
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">3. User Accounts</h2>
@@ -2577,13 +2710,13 @@ const TermsOfService = ({ onBack }: { onBack: () => void }) => {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">5. Health Disclaimer</h2>
             <div className="bg-yellow-50 p-4 rounded-lg border border-yellow-200 mb-6">
               <p className="text-yellow-800">
-                <strong>Important Medical Disclaimer:</strong> HealIPet provides health insights for informational purposes only and should not replace professional veterinary care, diagnosis, or treatment. Always consult with a qualified veterinarian for health concerns about your pet. Our AI analysis is based on image recognition and may not detect all health issues.
+                <strong>Important Medical Disclaimer:</strong> HealiPet provides health insights for informational purposes only and should not replace professional veterinary care, diagnosis, or treatment. Always consult with a qualified veterinarian for health concerns about your pet. Our AI analysis is based on image recognition and may not detect all health issues.
               </p>
             </div>
             
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Intellectual Property</h2>
             <p className="text-gray-700 mb-6">
-              The Service and its original content, features, and functionality are owned by HealIPet and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.
+              The Service and its original content, features, and functionality are owned by HealiPet and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.
             </p>
             
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">7. Privacy</h2>
@@ -2603,12 +2736,12 @@ const TermsOfService = ({ onBack }: { onBack: () => void }) => {
             
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">10. Limitation of Liability</h2>
             <p className="text-gray-700 mb-6">
-              In no event shall HealIPet be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your use of the Service.
+              In no event shall HealiPet be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your use of the Service.
             </p>
             
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">11. Governing Law</h2>
             <p className="text-gray-700 mb-6">
-              These Terms shall be interpreted and governed by the laws of the jurisdiction in which HealIPet operates, without regard to its conflict of law provisions.
+              These Terms shall be interpreted and governed by the laws of the jurisdiction in which HealiPet operates, without regard to its conflict of law provisions.
             </p>
             
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">12. Changes to Terms</h2>
@@ -2623,7 +2756,7 @@ const TermsOfService = ({ onBack }: { onBack: () => void }) => {
               </p>
               <p className="text-gray-700 mt-2">
                 <strong>Email:</strong> support@healipet.ai<br />
-                <strong>Address:</strong> HealIPet Legal Team<br />
+                <strong>Address:</strong> HealiPet Legal Team<br />
                 123 Pet Health Street<br />
                 Animal Care City, AC 12345
               </p>
@@ -2656,7 +2789,7 @@ const ContactUs = ({ onBack }: { onBack: () => void }) => {
           <div className="bg-white rounded-2xl p-8 shadow-sm">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h2>
             <p className="text-gray-600 mb-8">
-              Have questions about HealIPet? Need help with your pet's health analysis? We're here to help!
+              Have questions about HealiPet? Need help with your pet's health analysis? We're here to help!
             </p>
             
             <div className="space-y-6">
@@ -2706,7 +2839,7 @@ const ContactUs = ({ onBack }: { onBack: () => void }) => {
             <div className="mt-8 p-4 bg-blue-50 rounded-lg border border-blue-200">
               <h4 className="font-semibold text-blue-900 mb-2">Emergency Situations</h4>
               <p className="text-blue-800 text-sm">
-                If your pet is experiencing a medical emergency, please contact your local veterinarian or emergency animal hospital immediately. HealIPet is for informational purposes only and cannot provide emergency medical care.
+                If your pet is experiencing a medical emergency, please contact your local veterinarian or emergency animal hospital immediately. HealiPet is for informational purposes only and cannot provide emergency medical care.
               </p>
             </div>
           </div>
@@ -2829,7 +2962,7 @@ const AboutUs = ({ onBack }: { onBack: () => void }) => {
             <ChevronRight className="w-4 h-4 rotate-180" />
             Back to Home
           </button>
-          <h1 className="text-xl font-bold text-gray-900">About HealIPet</h1>
+          <h1 className="text-xl font-bold text-gray-900">About HealiPet</h1>
           <div></div>
         </div>
       </header>
@@ -2841,7 +2974,7 @@ const AboutUs = ({ onBack }: { onBack: () => void }) => {
             <div className="w-20 h-20 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl flex items-center justify-center mx-auto mb-6">
               <PawPrint className="w-10 h-10 text-white" />
             </div>
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">About HealIPet</h1>
+            <h1 className="text-4xl font-bold text-gray-900 mb-4">About HealiPet</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Revolutionizing pet healthcare through artificial intelligence. We believe every pet deserves access to quality health insights.
             </p>
@@ -2873,7 +3006,7 @@ const AboutUs = ({ onBack }: { onBack: () => void }) => {
         
         {/* How It Works */}
         <div className="bg-white rounded-2xl p-8 shadow-sm mb-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">How HealIPet Works</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">How HealiPet Works</h2>
           <div className="grid md:grid-cols-4 gap-6">
             <div className="text-center">
               <div className="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
@@ -2982,7 +3115,7 @@ const AboutUs = ({ onBack }: { onBack: () => void }) => {
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white text-center">
           <h2 className="text-2xl font-bold mb-4">Have Questions?</h2>
           <p className="text-blue-100 mb-6">
-            We'd love to hear from you. Get in touch with our team to learn more about HealIPet.
+            We'd love to hear from you. Get in touch with our team to learn more about HealiPet.
           </p>
           <button 
             onClick={() => onBack()}
@@ -3083,7 +3216,7 @@ const AdminPanel = ({ onBack }: { onBack: () => void }) => {
               <Shield className="w-8 h-8 text-white" />
             </div>
             <h1 className="text-2xl font-bold text-white">Admin Access</h1>
-            <p className="text-gray-400 mt-2">HealIPet Management Console</p>
+            <p className="text-gray-400 mt-2">HealiPet Management Console</p>
           </div>
 
           <form onSubmit={handleAdminLogin} className="space-y-4">
@@ -3134,7 +3267,7 @@ const AdminPanel = ({ onBack }: { onBack: () => void }) => {
               <Shield className="w-5 h-5 text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">HealIPet Admin</h1>
+              <h1 className="text-xl font-bold text-gray-900">HealiPet Admin</h1>
               <p className="text-sm text-gray-500">Management Console</p>
             </div>
           </div>
